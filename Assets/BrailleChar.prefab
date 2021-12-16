@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 882956111265295729}
   - component: {fileID: 882956111265295734}
   - component: {fileID: 882956111265295735}
+  - component: {fileID: 7840182921015104679}
   m_Layer: 0
   m_Name: BrailleChar
   m_TagString: Untagged
@@ -197,6 +198,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7840182921015104679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882956111265295732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f01339abd9e0d2439ced67594f21e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dots:
+  - {fileID: 882956111353836985}
+  - {fileID: 882956111646263388}
+  - {fileID: 882956110584476347}
+  - {fileID: 882956111593969351}
+  - {fileID: 882956111489261402}
+  - {fileID: 882956111506221706}
 --- !u!1 &882956111353836985
 GameObject:
   m_ObjectHideFlags: 0
